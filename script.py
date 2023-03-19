@@ -4,6 +4,7 @@ import random
 print("!!!! SCRIPT STARTED !!!!")
 
 os.chdir('D:/Github/diy-learning/')
+os.getcwd()
 os.system('git pull')
 os.system('git add --all')
 os.system('git commit -am "updated script"')
