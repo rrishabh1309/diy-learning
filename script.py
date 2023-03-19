@@ -3,11 +3,12 @@ import random
 
 print("!!!! SCRIPT STARTED !!!!")
 
-os.chdir('D:/Github/diy-learning/')
+os.chdir('D:\\Github\\diy-learning\\')
 print(os.getcwd())
-os.system('git pull')
-os.system('git add --all')
-os.system('git commit -am "updated script"')
+print(os.listdir())
+# os.system('git pull')
+# os.system('git add --all')
+# os.system('git commit -am "updated script"')
 
 with open("input.txt", 'r') as fp:
 	digits = fp.read()
